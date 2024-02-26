@@ -1,68 +1,68 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React from "react";
+import { Link } from "react-router-dom";
 
 function Footer() {
   const Links = [
     {
-      title: 'Company',
+      title: "Company",
       links: [
         {
-          link: '/about-us',
-          name: 'About Us',
+          link: "/about-us",
+          name: "About Us",
         },
         {
-          link: '/faq',
-          name: 'FAQ',
+          link: "/faq",
+          name: "FAQ",
         },
         {
-          link: '/policy',
-          name: 'Policy',
+          link: "/policy",
+          name: "Policy",
         },
         {
-          link: '/terms-condition',
-          name: 'Condition',
+          link: "/terms-condition",
+          name: "Condition",
         },
       ],
     },
     {
-      title: 'Top Category',
+      title: "Top Category",
       links: [
         {
-          link: '/category/Lunch',
-          name: 'Lunch',
+          link: "/category/Lunch",
+          name: "Lunch",
         },
         {
-          link: '/category/Salad',
-          name: 'Salad',
+          link: "/category/Salad",
+          name: "Salad",
         },
         {
-          link: '/category/Breakfast',
-          name: 'Breakfast',
+          link: "/category/Breakfast",
+          name: "Breakfast",
         },
         {
-          link: '/category/Dinner',
-          name: 'Dinner',
+          link: "/category/Dinner",
+          name: "Dinner",
         },
       ],
     },
     {
-      title: 'My Account',
+      title: "My Account",
       links: [
         {
-          link: '/dashboard',
-          name: 'Dashboard',
+          link: "/dashboard",
+          name: "Dashboard",
         },
         {
-          link: '/orders',
-          name: 'My Orders',
+          link: "/orders",
+          name: "My Orders",
         },
         {
-          link: '/profile',
-          name: 'Updated Profile',
+          link: "/profile",
+          name: "Updated Profile",
         },
         {
-          link: '/password',
-          name: 'Change Password',
+          link: "/password",
+          name: "Change Password",
         },
       ],
     },
@@ -104,13 +104,13 @@ function Footer() {
             </Link>
             <p className="leading-7 font-sans text-sm text-gray-600 mt-3">
               <span>
-                987 Andre Plain Suite High Street 838, <br /> Lake Hestertown,
-                Tanzania
+                47 Hanover Lane, Winter Garden, FL 34787 <br /> Lake Hestertown,
+                Florida
               </span>
               <br />
-              <span>Tell: +255 754661424</span>
+              <span>Tell: +1 754661424</span>
               <br />
-              <span>Email: info@zpunet.com</span>
+              <span>Email: info@eurorondon.com</span>
             </p>
           </div>
         </div>
